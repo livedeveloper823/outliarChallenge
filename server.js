@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 function respondHello (req, res) {
   res.end(JSON.stringify({ msg: 'hello' }))
 }
-//
+
 server.listen(PORT)
 console.log(`Server listening on port ${PORT}`)
 
